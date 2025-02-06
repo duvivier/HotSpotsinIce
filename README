@@ -1,0 +1,13 @@
+February 2025
+
+Scripts for data processing and analysis used for manuscript submitted to Nature Climate Change. 
+
+We create an Antarctic Ecosystem Value (AEV) Index using Earth System Model (ESM) data
+to identify valuable regions around Antarctica across trophic levels of the Ecosystem.
+
+Previous and current CESM versions are freely available online at the CESM2 website: 
+https://www.cesm.ucar.edu/models/cesm2/
+
+The CESM2 Large Ensemble data are freely available at: https://www.earthsystemgrid.org/dataset/ucar.cgd.cesm2le.output.html
+
+The CESM2 FOSI data are freely available at: https://app.globus.org/file-manager?origin_id=6f5e56da-0353-4bd4-bac0-04a104e05d58&origin_path=%2FLR%2F&two_pane=false
