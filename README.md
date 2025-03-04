@@ -14,12 +14,15 @@ The AEV Index is created by merging ecosystem information across food web trophi
 regions around Antarctica across trophic levels. This Index is derived from publically available Earth System
 Model (ESM) data. 
 
-Previous and current CESM versions are freely available online at the CESM2 website: 
-https://www.cesm.ucar.edu/models/cesm2/
+Processed data files originating from CESM2 data in NetCDF format used for the manuscript analysis can be found here:
+https://doi.org/10.5281/zenodo.14827913
 
 The CESM2 Large Ensemble data are freely available at: https://www.earthsystemgrid.org/dataset/ucar.cgd.cesm2le.output.html
 
 The CESM2 FOSI data are freely available at: https://app.globus.org/file-manager?origin_id=6f5e56da-0353-4bd4-bac0-04a104e05d58&origin_path=%2FLR%2F&two_pane=false
+
+Previous and current CESM model code are freely available online at the CESM2 website: 
+https://www.cesm.ucar.edu/models/cesm2/
 
 # Repo Contents
 - [data_processing](./data_processing): JupyterHub notebooks for processing the AEV Index from ESM data inputs.
