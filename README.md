@@ -28,23 +28,33 @@ The CESM2 FOSI data are freely available at: https://app.globus.org/file-manager
 
 # System Requirements
 This code was run on Jupyter Hub the NSF NCAR high performance computing Casper machine for data analysis and visualization. 
-More information about the Casper system is found here: https://ncar-hpc-docs.readthedocs.io/en/latest/compute-systems/casper/
-More information about the JupyterHub installation is found here: https://ncar-hpc-docs.readthedocs.io/en/latest/compute-systems/jupyterhub/
+
+Information about the Casper system including all available software is found here: https://ncar-hpc-docs.readthedocs.io/en/latest/compute-systems/casper/
+
+Information about the JupyterHub installation on Casper is found here: https://ncar-hpc-docs.readthedocs.io/en/latest/compute-systems/jupyterhub/
 
 # Installation Guide
 On Casper, we have created the following files to recreate the analysis environment by doing the following:
 1. From command line, activate environment:
-> conda activate analysis3
+```
+conda activate analysis3
+```
 
 2. To get a list of human readable packages, once you have the environment activated do the following:
-> conda list >> conda_list.txt
+```
+conda list >> conda_list.txt
+```
 The results of this command are in the file called "conda_list.txt" in the environment. 
 
 3. We have exported the environment as a yml file:
-> conda env export --from-history > environment.yml
+```
+conda env export --from-history > environment.yml
+```
 
 4. To recreate the python environment, do the following at the command line:
-> conda env create -f environment.yml -n new_env_name
+```
+conda env create -f environment.yml -n new_env_name
+```
 
 # Demo
 
