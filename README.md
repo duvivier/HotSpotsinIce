@@ -17,9 +17,9 @@ Model (ESM) data.
 Processed data files originating from CESM2 data in NetCDF format used for the manuscript analysis can be found here:
 https://doi.org/10.5281/zenodo.14827913
 
-The CESM2 Large Ensemble data are freely available at: https://www.earthsystemgrid.org/dataset/ucar.cgd.cesm2le.output.html
+The original CESM2 Large Ensemble data are freely available at: https://www.earthsystemgrid.org/dataset/ucar.cgd.cesm2le.output.html
 
-The CESM2 FOSI data are freely available at: https://app.globus.org/file-manager?origin_id=6f5e56da-0353-4bd4-bac0-04a104e05d58&origin_path=%2FLR%2F&two_pane=false
+The original CESM2 FOSI data are freely available at: https://app.globus.org/file-manager?origin_id=6f5e56da-0353-4bd4-bac0-04a104e05d58&origin_path=%2FLR%2F&two_pane=false
 
 Previous and current CESM model code are freely available online at the CESM2 website: 
 https://www.cesm.ucar.edu/models/cesm2/
@@ -30,7 +30,7 @@ https://www.cesm.ucar.edu/models/cesm2/
 - [environment](./environment): Information about the analysis environment
 
 # System Requirements
-This code was run on Jupyter Hub the NSF NCAR high performance computing Casper machine for data analysis and visualization. 
+This code was run on JupyterHub the NSF NCAR high performance computing Casper machine for data analysis and visualization. The analysis uses Python V 3.7.12 and a full list of packages in the analysis environment we used is listed in conda_list.txt int he environment directory. 
 
 Information about the Casper system including all available software is found here: https://ncar-hpc-docs.readthedocs.io/en/latest/compute-systems/casper/
 
@@ -60,8 +60,9 @@ conda env create -f environment.yml -n new_env_name
 ```
 
 # Demo
+To run the Jupyter Notebooks, they must be opened in JupyterHub. Reset the kernel and select the analysis environment set up in the previous steps. Ensure the data paths point to the correct post processed data paths. Run the cell that imports all the necessary packages from the environment. Finally, run the Jupyter Notebook.
 
-TEXT HERE
+Information about running Jupyter Notebooks is found here: https://docs.jupyter.org/en/latest/running.html
 
 # Citation
 This code was created for a manuscript that is currently in review at Nature Communications.
