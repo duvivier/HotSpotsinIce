@@ -1,7 +1,8 @@
 August 2025
-Updates: Notebooks for figures and data processing have been updated based on peer review comments
+Updates: 
+Notebooks for figures and data processing have been updated based on peer review comments
 
-###################################
+
 February 2025
 ## Contents
 
